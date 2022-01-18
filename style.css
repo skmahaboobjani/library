@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #10d84c;
+    
+}
+.add-btn{
+    padding: 20px;
+    width: 270px;
+    background: rgba(0, 0,0, 0.5);
+    border-radius: 5px;
+    margin: 20px auto 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.add-btn:hover{
+    background: chartreuse;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.book{
+    padding: 20px;
+    min-width: 200px;
+    background: rgba(0, 0,0, 0.5);
+    height: 140px;
+    border-radius: 20px;
+    color: rgb(40, 179, 93);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.cross-btn{
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+.modal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background: rgba(20, 187, 56, 0.5);
+    top: 0px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-book{
+    width: 50vw;
+    height: 40vh;
+    background-color: rgb(14, 13, 13);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#form-top{
+    width: 50vw;
+    height: 30px;
+    background-color: rgb(84, 13, 197);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.hide-modal{
+    display: none;
+}
+.show-modal{
+    display: flex;
+}
+.input-ctn{
+    width: 50vw;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    flex-direction: column;
+
+}
+.book-title{
+    width: 300px;
+    
+    border: 1px solid white;
+
+
+}
+.add-book-btn{
+    background-color: rgb(184, 118, 32);
+    color: rgb(48, 10, 218);
+    width: 120px;
+    
+}
